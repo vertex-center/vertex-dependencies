@@ -1,0 +1,12 @@
+{
+    "name": "Redis",
+    "description": "In-memory data storage.",
+    "homepage": "http://redis.io/",
+    "license": "BSD-3",
+    "check": "script:check.sh",
+    "install": {
+        "brew": "redis",
+        "pacman": "redis",
+        "sources": "script:install.sh"
+    }
+}
