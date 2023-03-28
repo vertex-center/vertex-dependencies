@@ -7,6 +7,8 @@
     "install": {
         "brew": "redis",
         "pacman": "redis",
+        "apt-get": "redis",
+        "snap": "redis",
         "sources": "script:install.sh"
     }
 }
