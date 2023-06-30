@@ -1,0 +1,10 @@
+{
+    "name": "Postgres",
+    "description": "PostgreSQL",
+    "homepage": "https://www.postgresql.org",
+    "license": "PostgreSQL License",
+    "check": "postgres",
+    "install": {
+        "brew": "postgresql"
+    }
+}
